@@ -68,4 +68,20 @@ streamlit run app.py
 
 ### 5. Reranking → Top results are reranked using a CrossEncoder.
 
-### 6. LLM Response → The top context chunks are sent to LLaMA 3 via ollama.chat.
+### 6. LLM Response → The top context chunks are sent to llama3.2 via ollama.chat.
+
+## 🖼 UI Preview
+
+<img src="demo-screenshot.png" width="80%" />
+
+## 🗂 Project Structure
+```
+├── app.py                  # Main Streamlit app
+├── demo-rag-chroma/        # ChromaDB persistent store
+├── requirements.txt
+├── README.md
+```
+## 🔐 Notes
+### -> This app runs entirely locally; no API keys or cloud dependencies.
+### -> For performance, try reducing chunk size or switching to faster LLMs.
+### -> ChromaDB and Ollama must be running properly in the background.
