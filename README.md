@@ -72,7 +72,7 @@ streamlit run app.py
 
 ## 🖼 UI Preview
 
-<img src="demo-screenshot.png" width="80%" />
+<img src="ag chat app.png" width="80%" />
 
 ## 🗂 Project Structure
 ```
